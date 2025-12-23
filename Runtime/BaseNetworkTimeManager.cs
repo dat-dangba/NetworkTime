@@ -14,7 +14,7 @@ public abstract class BaseNetworkTimeManager<INSTANCE> : MonoBehaviour
 
     private int countRequest;
 
-    protected DateTimeOffset dateTimeOffset;
+    private DateTimeOffset dateTimeOffset;
     private DateTimeOffset startDateTimeOffset;
 
     private double realTimeSinceStartup = 0;
