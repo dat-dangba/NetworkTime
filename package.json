@@ -1,0 +1,15 @@
+{
+  "name": "com.datdb.networktime",
+  "displayName": "NetworkTime",
+  "description": "NetworkTime",
+  "author": "datdb",
+  "version": "1.0.0",
+  "website": "https://github.com/dat-dangba/NetworkTime",
+  "samples": [
+    {
+      "displayName": "NetworkTime Sample",
+      "description": "NetworkTime Sample",
+      "path": "Samples~/NetworkTime Sample"
+    }
+  ]
+}
