@@ -1,5 +1,8 @@
-public enum TimeType
+namespace DBD.NetworkTime
 {
-    UTC,
-    LOCAL
+    public enum TimeType
+    {
+        UTC,
+        LOCAL
+    }
 }

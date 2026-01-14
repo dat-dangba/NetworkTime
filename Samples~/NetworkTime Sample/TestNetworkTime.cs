@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace NetworkTimeSample
+namespace DBD.NetworkTime.Sample
 {
     public class TestNetworkTime : MonoBehaviour
     {

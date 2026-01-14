@@ -1,6 +1,6 @@
 {
-    "name": "NetworkTime",
-    "rootNamespace": "",
+    "name": "DBD-NetworkTime",
+    "rootNamespace": "DBD.NetworkTime",
     "references": [],
     "includePlatforms": [],
     "excludePlatforms": [],
