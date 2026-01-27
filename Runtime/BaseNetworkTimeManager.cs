@@ -99,6 +99,7 @@ namespace DBD.NetworkTime
 
         public void GetNetworkTime()
         {
+            StartCoroutine(TimeOutRequest());
             if (Application.internetReachability != NetworkReachability.NotReachable && !isUseLocalTime)
             {
                 RequestNetworkTime();
@@ -107,8 +108,6 @@ namespace DBD.NetworkTime
             {
                 Invoke(nameof(GetTimeOffline), 0.2f);
             }
-
-            StartCoroutine(TimeOutRequest());
         }
 
         private IEnumerator TimeOutRequest()
