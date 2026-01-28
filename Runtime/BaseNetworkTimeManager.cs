@@ -176,7 +176,7 @@ namespace DBD.NetworkTime
 
         public virtual DateTime GetDateTime(TimeType type = TimeType.LOCAL)
         {
-            return type == TimeType.UTC ? dateTimeOffset.DateTime : dateTimeOffset.LocalDateTime;
+            return type == TimeType.UTC ? dateTimeOffset.UtcDateTime : dateTimeOffset.LocalDateTime;
         }
 
         public virtual int GetDayOfWeek(TimeType type = TimeType.LOCAL)
