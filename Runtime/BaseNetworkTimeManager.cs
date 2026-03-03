@@ -85,6 +85,12 @@ namespace DBD.NetworkTime
                 return;
             }
 
+            if (isUseLocalTime)
+            {
+                dateTimeOffset = DateTimeOffset.Now;
+                return;
+            }
+
             dateTimeOffset = startDateTimeOffset.AddSeconds(Time.realtimeSinceStartupAsDouble - realTimeSinceStartup);
 
             // string dateTimeString = GetDateTimeString(GetDateTime());
